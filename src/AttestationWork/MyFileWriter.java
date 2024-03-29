@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class MyFileWriter {
     public void write(String []arrData, String data) {
-        String fileName = arrData[1]+".txt";
+        String fileName = arrData[0]+".txt";
         FileWriter writer = null;
         try {
             writer= new FileWriter(fileName,true);
